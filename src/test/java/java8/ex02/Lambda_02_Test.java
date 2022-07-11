@@ -43,6 +43,7 @@ public class Lambda_02_Test {
         for (Account account : result) {
             assert account.getBalance().equals(100);
             assert account.getOwner() != null;
+
         }
     }
     // end::test_map_person_to_account[]
